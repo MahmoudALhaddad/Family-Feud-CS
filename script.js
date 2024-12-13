@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
             first_answer(answersRoundOne[key - 1], key);
         }
 
-        if (key === "x") {
+        if (key === "x"||key === "X") {
             wrong.currentTime = 0;
             wrong.play();
             showWrongAnswerImage();
